@@ -6,3 +6,8 @@ English phrase pairs, we need to first get the alignments for each translation i
 the alignment, ibm model is one of the appropriate choices. Therefore, it becomes clear that this
 assignment can be divided into 3 main tasks: ibm model training, phrase extraction and finite
 state machine creation.
+
+How to run:
+1. python phase-extract.py
+2. python create-phase-fst.py
+3. python train-model1.py
